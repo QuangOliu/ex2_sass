@@ -1,0 +1,97 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: block;
+}
+
+.header {
+  background-color: #1d2126;
+  height: 81px;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__container a {
+  margin-top: 26px;
+}
+
+.header__container a img {
+  height: 19px;
+}
+
+/*phần biến và giá trị của border*/
+/*--------------------------------*/
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 26px 0px;
+}
+
+.menu li {
+  list-style: none;
+  padding: 7px 10px;
+  border: 2px solid #1d2126;
+  margin: 0 8px;
+}
+
+.menu li:hover {
+  border: 2px solid #b0b5bd;
+  border-radius: 5px;
+}
+
+.menu li:first-child {
+  margin-left: 0px;
+  border: 2px solid #23b7a4;
+  border-radius: 5px;
+}
+
+.menu li:first-child a {
+  color: #23b7a4;
+}
+
+.menu li:last-child {
+  margin-right: 0px;
+}
+
+.menu li a {
+  color: #a4aead;
+  text-decoration: none;
+}
+
+.baner {
+  background-image: url("../img/modle/intro.png");
+  height: 661px;
+  background-repeat: none;
+}
+
+.baner__title {
+  color: white;
+  padding-top: 226px;
+  margin-bottom: 30px;
+}
+
+.baner__subtitle {
+  color: #b0b5bd;
+}
+
+.baner__button a {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=scss.css.map */
