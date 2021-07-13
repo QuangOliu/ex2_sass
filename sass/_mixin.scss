@@ -1,0 +1,6 @@
+@mixin column ($column :4) {
+    width: (100%-(30px*$column))/$column;    
+    &:nth-child($column*n) {
+        margin-right: 0;
+    }
+}

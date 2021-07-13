@@ -1,0 +1,18 @@
+.outeam {
+    height: 648px;
+    &__team {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__member {
+        background-color: #e1e6ea;
+        width: calc((100%-(30px*3))/4); 
+        margin-right: 29px;   
+        &:nth-child(4n) {
+        margin-right: 0;
+    }
+    }    
+    &__disc {
+        padding: 20px ;
+    }
+}

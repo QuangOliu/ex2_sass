@@ -1,86 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-.container {
-    width: 100%;
-    max-width: 1140px;
-    margin: 0 auto;
-    display: block;
-}
-.header {
-    background-color: #1d2126;
-    height: 81px;
-    &__container{
-        display: flex;
-        justify-content: space-between;
-        a{
-            margin-top: 26px;
-            img{
-                height: 19px;
-            }
-        }
-    }
-}
-
-/*phần biến và giá trị của border*/
-$boder-radius: 5px;
-$boder-color: #b0b5bd;
-$color-home:#23b7a4;
-%border-style {
-    border: 2px solid $boder-color;
-}
-/*--------------------------------*/
-.menu {
-    ul {
-        display: flex;
-        margin: 26px 0px;
-    }
-    li{
-        list-style: none;
-        padding: 7px 10px;
-        border: 2px solid #1d2126;
-        &:hover{
-            border: 2px solid $boder-color;
-            border-radius: 5px;
-        }
-        margin: 0 8px;
-        &:first-child{
-
-            margin-left: 0px;
-            border: 2px solid $color-home;
-            border-radius: 5px;
-            a {
-                color:  $color-home;
-            }
-        }
-        &:last-child{
-            margin-right: 0px;
-        }
-        a{
-            color: #a4aead;
-            text-decoration: none;
-        }
-    }
-}
-.baner {
-    background-image: url("../img/modle/intro.png");
-    height: 661px;
-    background-repeat: none;
-    &__title {
-        color: white;
-        padding-top: 226px;
-        margin-bottom: 30px;
-    }
-    &__subtitle {
-        color: #b0b5bd;
-    }
-    &__button {
-        &  a{
-            color: white;
-            text-decoration: none;
-        }
-    }
-}
+@import "./valiables";
+@import "./style";
+@import "./base";
+@import "./mixin";
+@import "./header";
+@import "./slide";
+@import "./about";
+@import "./outteam";
+@import "./work";

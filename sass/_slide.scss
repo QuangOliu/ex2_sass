@@ -1,0 +1,25 @@
+.baner {
+    background: url("../img/modle/intro.png") top center/ cover no-repeat;
+    height: 661px;
+    background-repeat: none;
+    &__title {
+        color: white;
+        padding-top: 226px;
+        margin-bottom: 30px;
+    }
+    &__subtitle {
+        color: #b0b5bd;
+        margin-bottom: 41px;
+    }
+    // &__button a{
+    //     color: white;
+    //     border: 2px solid white;
+    //     padding: 15px 20px;
+    //     border-radius: 5px;
+    //     margin-right: 24px;
+    //     &:hover {
+    //         border: 2px solid $green;
+    //         background-color: $green;
+    //     }
+    // }
+}
