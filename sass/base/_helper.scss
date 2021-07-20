@@ -1,0 +1,43 @@
+
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+}   
+
+.button {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 38px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 6px 20px;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 14px;
+    &:hover {
+        color: white;
+        border-color: $green;
+        background-color: $green;
+        transform: 0.5s;
+    }
+}
+
+.title {
+    border-left: 10px solid $gray--title ;
+    padding-left: 15px; 
+    margin-bottom: 53px;
+}
+
+.social {
+    ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        li a img {
+            width: 20px;
+        }
+        li a {
+            margin-right: 10px;
+        }
+    }
+}

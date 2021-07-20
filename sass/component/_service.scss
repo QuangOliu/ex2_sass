@@ -1,0 +1,24 @@
+.service {
+    padding: 81px 0 71px 0;
+
+    &__option {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+
+    &__iterm {
+        width: 23%;
+        margin-bottom: 86px;
+    }
+
+    &__content {
+        padding-top: 30px;
+    }
+
+    &__disc {
+        padding-top: 17px;
+    }
+}

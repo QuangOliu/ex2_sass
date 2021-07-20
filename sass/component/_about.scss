@@ -1,28 +1,34 @@
 .about {
-    height: 617px;
+    padding: 77px 0 68px 0;
     &__block {
         display: flex;
     }
 
     &__intro {
-        width: 55%;
+        width: 66%;
         float: left;
         margin-right: 20px;
     }
 
+    &__body {
+        margin-bottom:27px;
+    }
+
     &__social {
-         margin-bottom: 100px;
         a  img {
-            margin-top: 14px;
+            margin: 14px 0;
+            margin-right: -2px;
         }
     }
 
     &__step {
-        width: 45%x;
+        width: 45%;
         float: right;
     }
+
     &__step__block {
         display: flex;
+        margin-bottom: 30px;
         img {
             margin-right: 20px;
             width: 50px;
@@ -30,6 +36,10 @@
         }
     }
     &__step__content {
-        width: 30%;
+        width: calc(100%-65%-20px);
+    }
+
+    &__body__step{
+        padding-top: 9px;
     }
 }

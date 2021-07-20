@@ -1,0 +1,15 @@
+footer {
+    background-color: $dark-blue;
+    width: 100%;
+    p {
+        color: white;
+        font-size: 14px;
+    }
+
+}
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 0;
+}

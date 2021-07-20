@@ -1,0 +1,47 @@
+.header {
+    background-color: $dark;
+
+    &__wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 13px 0 12px 0;
+    }
+
+    &__logo {
+        line-height: 0;
+        margin-top: 8px;
+        margin-left: 1px;
+    }
+
+    &__menu {
+
+        ul {
+            display: flex;
+            align-items: center;
+        }
+
+        li {
+            margin-left: 10px;
+        }
+
+        a {
+            color: $gray-white;
+            text-transform: uppercase;
+            padding: 5px 10px;
+            border: 2px solid $dark;
+            border-radius: 5px;
+            transition: 0.5s;
+
+            &:hover{
+                border-color: $gray;
+            }
+
+            &.active {
+            color: $green;
+            border-color: $green;
+            margin-right: 30px;
+            }
+        }
+    }
+}
