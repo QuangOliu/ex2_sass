@@ -1,14 +1,13 @@
 .work {
     padding: 80px 0 137px 0;
     background: #3a454d;
-    position: relative;
 
     h2 {
         color: white;
     }
 
     &__global {
-        padding-top: 1px;
+        padding: 9px 0 29px 0;
         display: flex;
         flex-wrap: wrap;
     }
@@ -43,7 +42,7 @@
             color: white;
             position: absolute;
             top: 210px;
-            display: none;   
+            opacity: 0;  
         }
     }
 
@@ -55,23 +54,22 @@
         transform: translate(-50%,-50%);
         top: 38%;
         left: 50%;
-        display: none;
+        opacity: 0;
     }
     
     &__pic:hover &__plus{
-        display: block;
+        opacity: 1;
         transition: 0.5s;
     }
 
-    &__pic:hover &__where{
-        display: block;
+    &__pic:hover &__where {
+        opacity: 1;
         transition: 0.5s;
     }
 
     &__button {
-        position: absolute;
-        top: 84%;
-        left: 47%;
+        margin: calc(100% - #{$container-width});
     }
+
 }
 
