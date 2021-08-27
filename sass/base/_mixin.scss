@@ -1,4 +1,0 @@
-@mixin row ($number:4) {
-    width: ((100% - (#{$number}-1)*30px)/$number);
-    margin-right: 30px;
-}
